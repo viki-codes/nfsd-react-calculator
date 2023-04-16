@@ -1,0 +1,39 @@
+.input {
+  background: #e9c46a;
+  color: black;
+  font-size: 2em;
+  border: 0;
+  padding: 0.3em;
+  text-align: right;
+  width: 100%;
+  height: 50px;
+  font-family: "Space Mono", serif;
+  caret-color: transparent;
+  cursor: default;
+}
+
+.root {
+  background: #e9c46a;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 82px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.arrow {
+  border: none;
+  background-color: transparent;
+  font-size: 28px;
+  cursor: pointer;
+  width: 50px;
+  height: 32px;
+}
+
+.arrow:focus {
+  outline: none;
+}

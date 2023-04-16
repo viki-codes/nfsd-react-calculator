@@ -1,0 +1,39 @@
+.span-2 {
+  grid-column: span 2;
+}
+.span-3 {
+  grid-column: span 3;
+}
+.root {
+  font-size: 1em;
+  height: 65px;
+  cursor: pointer;
+  background-color: #2a9d8f;
+  color: white;
+  border: 0;
+  font-family: "Space Mono", serif;
+}
+.root:hover {
+  background: #2a9d9081;
+}
+.operator {
+  background-color: #f4a261;
+  color: black;
+}
+
+.operator:hover {
+  background-color: #f4a361b7;
+}
+
+.disabled {
+  background-color: darkslategray;
+  cursor: not-allowed;
+}
+
+.disabled:hover {
+  background-color: darkslategrey;
+}
+
+button:focus {
+  outline: none;
+}

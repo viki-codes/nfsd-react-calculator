@@ -1,0 +1,57 @@
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 150px;
+  height: 425px;
+}
+
+.root {
+  position: absolute;
+  transform: translateX(-150px);
+  -webkit-transform: translateX(-150px);
+  height: 425px;
+  width: 150px;
+  overflow-y: auto;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.root::-webkit-scrollbar {
+  display: none;
+}
+
+.slide-in {
+  animation: slide-in 0.5s forwards;
+}
+
+.slide-out {
+  animation: slide-out 0.5s forwards;
+}
+
+@keyframes slide-in {
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes slide-out {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-150px);
+  }
+}
+.operation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 30px;
+  cursor: pointer;
+  background-color: #e76f51;
+  width: 150px;
+  font-family: "Space Mono", serif;
+}
+
+.operation:hover {
+  background-color: #e76f51a2;
+}

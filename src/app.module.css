@@ -1,0 +1,19 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 0;
+}
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background-color: #264653;
+}
+.root {
+  max-width: 320px;
+  height: 425px;
+}
+* {
+  box-sizing: border-box;
+}
